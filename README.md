@@ -31,38 +31,6 @@ Authentication
 OAuth2 Authorization Code Flow - Secure, token-based authentication
 Environment-based secrets management
 
-Architecture
-System Overview
-┌─────────────┐
-│   User      │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────────────────────────────────┐
-│         FastAPI Backend                 │
-│  ┌────────────────────────────────┐    │
-│  │    OAuth2 Flow                 │    │
-│  │  /oauth/start → /oauth/callback│    │
-│  └────────────────────────────────┘    │
-│                                          │
-│  ┌────────────────────────────────┐    │
-│  │    Health Data Endpoints       │    │
-│  │  /api/oura/sleep               │    │
-│  │  /api/oura/activity            │    │
-│  │  /api/oura/readiness           │    │
-│  └────────────────────────────────┘    │
-│                                          │
-│  ┌────────────────────────────────┐    │
-│  │    AI Coach Endpoint           │    │
-│  │  /api/recommendations          │    │
-│  └────────────────────────────────┘    │
-└───────┬──────────────────────┬──────────┘
-        │                      │
-        ▼                      ▼
-┌───────────────┐      ┌──────────────┐
-│  Oura Ring    │      │  Claude AI   │
-│     API       │      │     API      │
-└───────────────┘      └──────────────┘
 Data Flow
 1. User Authentication
 
