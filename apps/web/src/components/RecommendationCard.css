@@ -1,0 +1,76 @@
+.recommendation-card {
+  border: 3px solid;
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.recommendation-icon {
+  font-size: 3rem;
+}
+
+.recommendation-title h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #1f2937;
+}
+
+.recommendation-type {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.confidence-badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.recommendation-message {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #374151;
+  margin-bottom: 1.5rem;
+}
+
+.recommendation-message p {
+  margin: 0 0 1rem 0;
+}
+
+.key-factors {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.key-factors h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.125rem;
+  color: #1f2937;
+}
+
+.key-factors ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.key-factors li {
+  margin-bottom: 0.5rem;
+  color: #4b5563;
+  font-size: 1rem;
+}
