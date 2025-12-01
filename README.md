@@ -1,19 +1,19 @@
 # Oura Ring AI Recovery Coach
 AI-powered personalized health insights and recovery recommendations based on your Oura Ring data
 
-#Overview
+# Overview
 As an avid Oura Ring user, I found the default dashboard lacked the depth and AI-powered insights needed to truly optimize recovery. This project bridges that gap by combining real-time biometric data from the Oura Ring with Claude AI to deliver personalized, actionable health recommendations.
 The application analyzes sleep quality, activity levels, and readiness metrics to provide context-aware coaching that adapts to your daily health patterns.
 Features
 
-#AI-Powered Analysis 
+# AI-Powered Analysis 
 - Claude AI interprets your health metrics and provides personalized recovery recommendations
 Comprehensive Dashboard - Detailed breakdowns of sleep stages, activity metrics, and readiness scores
 Secure OAuth2 Integration - Industry-standard authentication with the Oura API
 Real-Time Insights - Fetch and analyze your latest health data instantly
 Multi-Metric Analysis - Combines sleep, activity, and readiness data for holistic recommendations
 
-#Tech Stack
+# Tech Stack
 
 
 Python 3.11+ - Core language
@@ -22,17 +22,17 @@ httpx - Async HTTP client for API calls
 Pydantic - Data validation and settings management
 python-dotenv - Environment variable management
 
-#APIs & Services
+# APIs & Services
 
 Oura Ring API v2 - Health and fitness data
 Anthropic Claude API - AI-powered analysis and recommendations
 
-#Authentication
+# Authentication
 
 OAuth2 Authorization Code Flow - Secure, token-based authentication
 Environment-based secrets management
 
-#Data Flow
+# Data Flow
 1. User Authentication
 
 /oauth/start triggers Oura authorization
@@ -72,7 +72,7 @@ Confidence score
 
 
 
-#Key Components
+# Key Components
 1. main.py - API Gateway
 
 Defines all REST endpoints
@@ -101,7 +101,7 @@ Validation rules for health data
 Response models for API contracts
 
 
-#Prerequisites
+# Prerequisites
 
 Python 3.11 or higher
 Oura Ring with active account
