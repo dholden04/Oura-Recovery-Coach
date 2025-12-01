@@ -1,4 +1,4 @@
-#Oura Ring AI Recovery Coach
+# Oura Ring AI Recovery Coach
 AI-powered personalized health insights and recovery recommendations based on your Oura Ring data
 
 #Overview
